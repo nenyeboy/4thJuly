@@ -1,0 +1,49 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>4th of July Parade</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="scene">
+    <!-- background layers -->
+    <img src="images/sky.png" alt="Sky" class="bg sky" />
+    <img src="images/city.png" alt="City skyline" class="bg city" />
+    <img src="images/tree.png" alt="Tree" class="bg tree left-tree" />
+    <img src="images/tree.png" alt="Tree" class="bg tree right-tree" />
+    <img src="images/bush.png" alt="Bush" class="bg bush left-bush" />
+    <img src="images/bush.png" alt="Bush" class="bg bush right-bush" />
+    
+    <!-- fireworks -->
+    <img src="images/fireworks.png" alt="Fireworks" class="fireworks" />
+
+    <!-- picnic area -->
+    <img src="images/picnic.png" alt="Picnic" class="scene-item picnic" />
+    <img src="images/grill.png"  alt="Grill"  class="scene-item grill" />
+    <img src="images/kids.png"   alt="Kids"   class="scene-item kids" />
+
+
+    <!-- parade floats -->
+    <div class="parade">
+      
+      <img src="images/eagle_wagon.png"  alt="Eagle float" class="float wagon eagle-wagon" />
+      <img src="images/flag_wagon.png"  alt="Truck"        class="float wagon truck" />
+      <img src="images/truck.png" alt="Statue"       class="float statue" />
+    </div>
+
+    <!-- road -->
+    <div class="road-container">
+      <div class="road">
+        <div class="lane"></div>
+        <div class="lane"></div>
+      </div>
+    </div>
+
+    <!-- anthem audio -->
+    <audio id="anthem" src="national_anthem.mp3"></audio>
+  </div>
+</body>
+</html>
